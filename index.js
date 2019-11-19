@@ -70,7 +70,7 @@ class Checkbox extends PureComponent {
         onPress={this.handleToggleChecked}
         disabled={disabled}
       >
-        <View style={[styles.container, containerStyle]}>
+        <View style={[styles.container,]}>
           {labelBefore ? (
             <Label
               labelStyle={labelStyle}
