@@ -7,7 +7,8 @@ class Checkbox extends PureComponent {
     checked: this.props.checked
   }
 
-  static Container = Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedback
+  //static Container = Platform.OS === 'ios' ? TouchableOpacity : TouchableNativeFeedback
+  static Container = TouchableOpacity;
 
   static defaultProps = {
     custom: false,
